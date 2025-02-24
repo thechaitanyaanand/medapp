@@ -1,0 +1,63 @@
+# Node / React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.expo/
+.expo-shared/
+web-build/
+
+# React Native (Android & iOS)
+android/app/build/
+android/.gradle/
+android/.idea/
+android/build/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+*.iml
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3*
+db.sqlite3-journal
+
+# Logs and temp files
+logs/
+*.log
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Misc
+*.swp
