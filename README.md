@@ -1,10 +1,3 @@
-Below is a complete example of a **README.md** file for your project. You can copy this into your project's root directory on GitHub. It explains the project, its structure, setup instructions for both the backend and frontend, and additional information.
-
----
-
-```markdown
-# MedApp
-
 MedApp is a full-stack application designed to help users manage their medical data efficiently. Users can register and verify their accounts using phone numbers or email (with OTP verification), set medicine and appointment reminders, upload medical documents, interact with a chatbot for medical queries, and enjoy real-time messaging between patients and doctors.
 
 ## Table of Contents
@@ -16,8 +9,6 @@ MedApp is a full-stack application designed to help users manage their medical d
   - [Frontend Setup](#frontend-setup)
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
