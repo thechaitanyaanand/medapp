@@ -1,0 +1,100 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Get Started with MedApp</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling with a soft blue-gray background */
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #f0f4f8; /* Light blue-gray */
+      color: #333; /* Dark text for readability */
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    /* Central card with white background and subtle shadow */
+    .hero {
+      background-color: #ffffff;
+      width: 90%;
+      max-width: 700px;
+      padding: 2rem;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Main heading styling */
+    .hero h1 {
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    /* Paragraph styling for subtext */
+    .hero p {
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      font-size: 1.2rem;
+    }
+
+    /* Button styling */
+    .btn {
+      display: inline-block;
+      background-color: #007bff; /* Calm blue accent */
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 0.5rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .btn {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Smart Reminders for a Healthier You.</h1>
+    <p>
+      We remember, so you don’t have to!<br>
+      Get gentle nudges for doctor visits, meds, and vaccines.
+    </p>
+    <p>
+      Plus, let our AI chatbot guide you with health insights<br>
+      and pre-diagnosis assistance.
+    </p>
+
+    <!-- Registration and Login buttons -->
+    <a class="btn" href="/accounts/register/">Get Started</a>
+    <a class="btn" href="/accounts/login/">Login</a>
+  </div>
+</body>
+</html>
